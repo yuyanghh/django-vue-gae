@@ -64,7 +64,6 @@ handlers:
     script: auto
 
 env_variables:
-  APPENGINE_URL: 'https://${CLOUD_PROJECT_ID}.${REGION}.r.appspot.com/'
   GOOGLE_CLOUD_PROJECT: ${CLOUD_PROJECT_NUMBER}
   SETTINGS_NAME: 'django_settings'
   BUCKET_NAME: '${CLOUD_PROJECT_ID}.appspot.com'
@@ -87,7 +86,6 @@ handlers:
     script: auto
 
 env_variables:
-  APPENGINE_URL: 'https://staging.${CLOUD_PROJECT_ID}.${REGION}.r.appspot.com/'
   GOOGLE_CLOUD_PROJECT: ${CLOUD_PROJECT_NUMBER}
   SETTINGS_NAME: 'django_settings_staging'
   BUCKET_NAME: 'staging.${CLOUD_PROJECT_ID}.appspot.com'

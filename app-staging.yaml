@@ -8,7 +8,6 @@ handlers:
     script: auto
 
 env_variables:
-  APPENGINE_URL: 'https://staging.boilerplate-django-vue-gae.de.r.appspot.com/'
   GOOGLE_CLOUD_PROJECT: '146920878707'
   SETTINGS_NAME: 'django_settings_staging'
   BUCKET_NAME: 'staging.boilerplate-django-vue-gae.appspot.com'

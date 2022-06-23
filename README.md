@@ -125,7 +125,7 @@ DATABASE_URL=postgres://${DATABASE_USER}:${DATABASE_PASSWORD}@//cloudsql/${CLOUD
 ## Deploy to GAE
 
 ```
-pipenv lock -r > requirements.txt
+pipenv requirements > requirements.txt
 python manage.py collectstatic
 
 # set gcloud project
